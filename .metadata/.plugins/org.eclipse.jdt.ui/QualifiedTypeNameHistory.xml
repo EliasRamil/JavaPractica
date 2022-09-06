@@ -17,7 +17,6 @@
     <fullyQualifiedTypeName name="org.graalvm.compiler.core.common.type.ArithmeticOpTable.BinaryOp.Add"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEW"/>
     <fullyQualifiedTypeName name="javax.swing.DefaultRowSorter"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="sun.net.www.content.text.plain"/>
     <fullyQualifiedTypeName name="INCAA.Pelicula"/>
     <fullyQualifiedTypeName name="test.testINCAA"/>
@@ -25,13 +24,21 @@
     <fullyQualifiedTypeName name="INCAA.INCAA"/>
     <fullyQualifiedTypeName name="INCAA.Util"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.StaticBaseConstructor"/>
-    <fullyQualifiedTypeName name="sun.font.TrueTypeFont"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="modelo.Pelicula"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="modelo.Genero"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="modelo.INCAA"/>
+    <fullyQualifiedTypeName name="sun.font.TrueTypeFont"/>
+    <fullyQualifiedTypeName name="javax.xml.catalog.Catalog"/>
+    <fullyQualifiedTypeName name="modelo.Supermercado"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.nio.file.attribute.FileOwnerAttributeView"/>
+    <fullyQualifiedTypeName name="modelo.Producto"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="modelo.ItemCarrito"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
