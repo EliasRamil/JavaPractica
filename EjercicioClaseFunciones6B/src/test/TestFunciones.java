@@ -1,0 +1,31 @@
+package test;
+
+import static modelo.Funciones.*;
+
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+public class TestFunciones {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Funcion esBiciesto:" + esBisiesto(2100));
+		LocalDate date = LocalDate.of(2000, 2, 7);
+		System.out.println("Funcion traerFechaCorta: " + traerFechaCorta(date));
+		LocalTime hora = LocalTime.of(15, 28, 29, 2500);
+		System.out.println("Funcion traerHoraCorta: " + traerHoraCorta(hora));
+		System.out.println("Funcion esDiaHabil: " + esDiaHabil(date));
+		System.out.println("Funcion traerDiaDeLaSemana: " + traerDiaDeLaSemana(date));
+		System.out.println("Funcion traerMesEnLetras: " + traerMesEnLetras(date));
+		System.out.println("Funcion traerFechaLarga: " + traerFechaLarga(date));
+		System.out.println("Funcion traerCantidadDeDiasDeUnMes: " + traerCantidadDeDiasDeUnMes(2001, 9));
+		System.out.println("Funcion aproximar2Decimal: " + aproximar2Decimal(5.6849));
+		System.out.println("Funcion esNumero: " + esNumero('L'));
+		System.out.println("Funcion esLetra: " + esLetra('K'));
+		System.out.println("Funcion esCadenaNros: " + esCadenaNros("648431J"));
+		System.out.println("Funcion esCadenaLetras: " + esCadenaLetras("dcasaABS7"));
+	}
+
+	
+
+}

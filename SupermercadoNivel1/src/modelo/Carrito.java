@@ -11,11 +11,13 @@ public class Carrito {
 	private LocalTime hora;
 	private List<ItemCarrito> lstItem;
 	
-	public Carrito(int iIDCarrito, LocalDate fecha, LocalTime hora) {
+	public Carrito(int iIDCarrito, LocalDate fecha, LocalTime hora, Producto producto, int iCantidad) {
 		this.iIDCarrito = iIDCarrito;
 		this.fecha = fecha;
 		this.hora = hora;
 		this.lstItem = new ArrayList<ItemCarrito>();
+		
+		lstItem.add(new ItemCarrito(1, producto, iCantidad));
 	}
 	
 	//Metodos:
