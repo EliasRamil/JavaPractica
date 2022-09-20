@@ -40,7 +40,7 @@
 		<item key="ToStringTemplateSelected" value="0"/>
 	</section>
 	<section name="AddGetterSetterDialog">
-		<item key="SortOrdering" value="false"/>
+		<item key="SortOrdering" value="true"/>
 		<item key="RemoveFinal" value="true"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">

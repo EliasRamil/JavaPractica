@@ -179,7 +179,7 @@ public class Funciones {
 	public static int cantidadDiasHabilesEntreDosDias(LocalDate diaInicial, LocalDate diaFinal) {
 		int iResultado = 0;
 		
-		if(diaFinal.isAfter(diaInicial)) {
+		if(diaFinal.compareTo(diaInicial) >= 0) {
 			LocalDate diaAux =  LocalDate.of(diaInicial.getYear(), diaInicial.getMonthValue(), diaInicial.getDayOfMonth());
 			
 			while (diaFinal.compareTo(diaAux) >= 0) {
@@ -202,7 +202,7 @@ public class Funciones {
 	public static int cantidadDiasNoHabilesEntreDosDias(LocalDate diaInicial, LocalDate diaFinal) {
 		int iResultado = 0;
 		
-		if(diaFinal.isAfter(diaInicial)) {
+		if(diaFinal.compareTo(diaInicial) >= 0) {
 			LocalDate diaAux =  LocalDate.of(diaInicial.getYear(), diaInicial.getMonthValue(), diaInicial.getDayOfMonth());
 			
 			while (diaFinal.compareTo(diaAux) >= 0) {
@@ -219,6 +219,46 @@ public class Funciones {
 			iResultado = -1;
 		}
 		
+		return iResultado;
+	}
+	
+	public static int cantidadDeDiasDeUnPeriodoTranscurridoEnUnMesEnDiasHabilesONoHabiles(LocalDate ldFechaInicio, LocalDate ldFechaFin,
+			int iMes, int iAnio, boolean bLunesAViernes) {
+		int iResultado = 0;
+
+		if (ldFechaFin.getMonthValue() == iMes && ldFechaFin.getYear() == iAnio) {
+			LocalDate ldAuxIni = LocalDate.of(ldFechaInicio.getYear(), ldFechaInicio.getMonthValue(),
+					ldFechaInicio.getDayOfMonth());
+
+			while (ldAuxIni.isBefore(LocalDate.of(iAnio, iMes, 1))) {
+				LocalDate temp = ldAuxIni.plusDays(1);
+				ldAuxIni = temp;
+			}
+
+			if (bLunesAViernes) {
+				iResultado = cantidadDiasHabilesEntreDosDias(ldAuxIni, ldFechaFin);
+			} else {
+				iResultado = cantidadDiasNoHabilesEntreDosDias(ldAuxIni, ldFechaFin);
+			}
+		}
+
+		if (ldFechaInicio.getMonthValue() == iMes && ldFechaInicio.getYear() == iAnio) {
+			LocalDate ldAuxFin = LocalDate.of(ldFechaFin.getYear(), ldFechaFin.getMonthValue(),
+					ldFechaFin.getDayOfMonth());
+
+			while (ldAuxFin.isAfter(LocalDate.of(iAnio, iMes, traerCantidadDeDiasDeUnMes(iAnio, iMes)))) {
+				LocalDate temp = ldAuxFin.minusDays(1);
+				ldAuxFin = temp;
+			}
+
+			if (bLunesAViernes) {
+				iResultado = cantidadDiasHabilesEntreDosDias(ldFechaInicio, ldAuxFin);
+			} else {
+				iResultado = cantidadDiasNoHabilesEntreDosDias(ldFechaInicio, ldAuxFin);
+			}
+
+		}
+
 		return iResultado;
 	}
 	
