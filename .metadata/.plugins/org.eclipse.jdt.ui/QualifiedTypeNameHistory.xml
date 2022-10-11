@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="modelo.Numero"/>
-    <fullyQualifiedTypeName name="modelo.Circulo"/>
-    <fullyQualifiedTypeName name="java.text.DateFormat"/>
-    <fullyQualifiedTypeName name="java.text.DecimalFormat"/>
-    <fullyQualifiedTypeName name="modelo.Punto"/>
     <fullyQualifiedTypeName name="modelo.ArrayUnidimensional"/>
     <fullyQualifiedTypeName name="java.util.Random"/>
     <fullyQualifiedTypeName name="modelo.ArrayBidimensional"/>
@@ -29,10 +24,7 @@
     <fullyQualifiedTypeName name="javax.xml.catalog.Catalog"/>
     <fullyQualifiedTypeName name="modelo.Supermercado"/>
     <fullyQualifiedTypeName name="java.nio.file.attribute.FileOwnerAttributeView"/>
-    <fullyQualifiedTypeName name="sun.font.TrueTypeFont"/>
-    <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.time.LocalTime"/>
     <fullyQualifiedTypeName name="modelo.Cliente"/>
     <fullyQualifiedTypeName name="modelo.Carrito"/>
     <fullyQualifiedTypeName name="modelo.AdmCliente"/>
@@ -42,18 +34,30 @@
     <fullyQualifiedTypeName name="modelo.AdmProducto"/>
     <fullyQualifiedTypeName name="modelo.Producto"/>
     <fullyQualifiedTypeName name="modelo.ItemCarrito"/>
-    <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.IntInsnNode"/>
-    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.I2F"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="modelo.Empleado"/>
+    <fullyQualifiedTypeName name="modelo.Tarea"/>
+    <fullyQualifiedTypeName name="jdk.internal.org.objectweb.asm.tree.IntInsnNode"/>
+    <fullyQualifiedTypeName name="jdk.tools.jlink.internal.plugins.SystemModulesPlugin"/>
     <fullyQualifiedTypeName name="sun.jvm.hotspot.runtime.StaticBaseConstructor"/>
+    <fullyQualifiedTypeName name="com.sun.jndi.url.rmi.rmiURLContext"/>
+    <fullyQualifiedTypeName name="modelo.SistemaSaludDispositivos"/>
+    <fullyQualifiedTypeName name="modelo.Empresa"/>
+    <fullyQualifiedTypeName name="java.time.LocalTime"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
+    <fullyQualifiedTypeName name="modelo.Metrica"/>
+    <fullyQualifiedTypeName name="modelo.Dispositivo"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="modelo.Funciones"/>
+    <fullyQualifiedTypeName name="modelo.Hospedaje"/>
+    <fullyQualifiedTypeName name="sun.font.TrueTypeFont"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="modelo.Sistema"/>
-    <fullyQualifiedTypeName name="java.time.LocalDate"/>
-    <fullyQualifiedTypeName name="modelo.Empleado"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="modelo.Tarea"/>
+    <fullyQualifiedTypeName name="modelo.Servicio"/>
+    <fullyQualifiedTypeName name="modelo.Sistema"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="modelo.Gastronomia"/>
 </qualifiedTypeNameHistroy>
